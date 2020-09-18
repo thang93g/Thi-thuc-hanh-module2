@@ -9,7 +9,7 @@
 </head>
 <body>
 <h1>Product List</h1>
-<a class="btn btn-success" style="display: inline" href="index.php">Back</a>
+<a class="btn btn-success" style="display: inline;position: relative;left: 75%" href="index.php">Back</a>
 <table class="table">
     <thead class="thead-dark">
     <tr>

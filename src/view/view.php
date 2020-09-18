@@ -13,7 +13,7 @@
 Enter product name:<input type="text" name="search">
 <input class="btn btn-success" type="submit" value="Search">
 </form>
-<a class="btn btn-success" style="display: inline" href="index.php?page=add-product">Add product</a>
+<a class="btn btn-success" style="display: inline;left: 50%; position: relative" href="index.php?page=add-product">Add product</a>
 <table class="table">
     <thead class="thead-dark">
     <tr>

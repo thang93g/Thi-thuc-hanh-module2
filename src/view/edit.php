@@ -24,7 +24,7 @@
         </tr>
         <tr>
             <th>Description</th>
-            <td><input type="text" name="description" value="<?php echo $product['description'] ?>"></td>
+            <td><textarea name="description" ><?php echo $product['description'] ?></textarea></td>
         </tr>
         <tr>
             <th><a class="btn btn-secondary" href="index.php">Cancel</a> </th>
