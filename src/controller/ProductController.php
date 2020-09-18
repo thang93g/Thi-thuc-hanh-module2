@@ -45,7 +45,7 @@ class ProductController
         if ($_SERVER['REQUEST_METHOD'] == "POST"){
             $key = "%".$_REQUEST['search']."%";
             $products = $this->productManager->search($key);
-            include_once "src/view/view.php";
+            include_once "src/view/search.php";
         }
     }
 
